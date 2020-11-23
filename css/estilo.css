@@ -1,0 +1,122 @@
+/*Globales*/
+/* apply a natural box layout model to all elements, but allowing components to change */
+html {
+    box-sizing: border-box;
+    font-size: 62.5%; /** Reset rems **/
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+body {
+    font-family: "Arial Narrow", Tahoma, sans-serif;
+    font-size: 1.6rem;
+    line-height: 2;
+
+}
+h1 {
+    font-size: 6rem;
+}
+img {
+    max-width: 100%;
+}
+/*header*/
+.siteheader {
+    background-image: url("../sitio/fotos/fondo.jpg");
+    background-size: cover;
+    background-position: center;
+    padding: 1.0rem;
+}
+.barra {
+    display: flex;
+    justify-content: space-between;
+    max-width: 100%;
+    color: lightseagreen;
+    align-items: center;
+}
+.navegacion a{
+    font-size: 1.5rem;
+    margin-right: 2.5rem;
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+    text-align: center;
+}
+
+/*main*/
+.contenedor {
+    max-width: 110rem;
+    width: 100%;
+    margin: 0 auto;
+}
+.contenedor h2 {
+    color: lightseagreen;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 7rem;
+}
+.inicio {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    background-color: aliceblue;
+    margin: 1.0rem;
+    padding: 1.0rem;
+}
+.foto {    width: 20%;
+    height: auto;
+    margin-right: 3.0rem;
+
+}
+.ini {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    background-color: aliceblue;
+    margin: 1.0rem;
+    padding: 1.0rem;
+    font-variant-position: normal;
+}
+.inicio img {
+    width: 45%;
+    height: auto;
+    margin-right: 3.0rem;
+}
+.btn {
+    display: flex;
+    border-radius: 0.2rem;
+    background-color: mediumaquamarine;
+    border: none;
+    text-align: center;
+    padding: 1.0rem;
+    margin: 2.0rem;
+    font-family: "Arial Narrow", Tahoma, sans-serif;
+    color: aliceblue;
+}
+.redes {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-image: url("../sitio/fotos/fondo.jpg");
+    background-position: 100%;
+    width: 100%;
+    background-color: aliceblue;
+    margin: 1.0rem;
+    padding: 1.0rem;
+}
+h5 {
+    font-size: 2.0rem;
+}
+.rs a{
+    color: aliceblue ;
+    font-weight: bold;
+    text-decoration: none;
+    text-align: center;
+}
+h3 {
+    font-size: 5rem;
+}
+h4 {  color: lightseagreen;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 3rem}
+
